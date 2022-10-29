@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+      }
+
+      header {
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.419);
+        border-radius: 15px 15px 2px 2px;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      nav {
+        border-radius: 5px;
+        background-color: rgb(125, 125, 125);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.419);
+      }
+      nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.419);
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 2px 2px 15px 15px;
+      }
+
+      article {
+        border-radius: 2px 2px 15px 15px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.419);
+        background-color: lightgray;
+        padding: 10px;
+      }
+      article > aside {
+        background-color: rgb(166, 166, 166);
+      }
+
+      h2 {
+        color: black;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+      }
+      footer > p {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <p>Esportes Pólitica Tecnologia</p>
+      <section id="noticias">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quasi,
+          iure ea nihil voluptatum necessitatibus vitae perferendis architecto?
+          Corporis perspiciatis nulla rem maiores officia illum quasi, veritatis
+          molestiae unde architecto?
+        </p>
+        <article>
+          <h2>Notícia sobre o Brasil</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut est sed
+            voluptatum quod atque, vel ratione eveniet incidunt aut doloremque
+            illum odio laudantium qui soluta magni commodi laborum numquam.
+            Numquam?
+          </p>
+          <aside>
+            <p>Artigo escrito por José</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer><p>Desenvolvido pelo ArthurDev</p></footer>
+  </body>
+</html>
