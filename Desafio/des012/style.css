@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+header {
+  text-align: center;
+  padding: 100px;
+  width: 100%;
+  background-color: black;
+
+  color: white;
+}
+header a {
+  color: white;
+  text-decoration: solid;
+  transition-duration: 0.5s;
+}
+header a:hover {
+  text-decoration: underline;
+}
