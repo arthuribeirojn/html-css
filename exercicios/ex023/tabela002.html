@@ -12,6 +12,7 @@
       table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
       }
       td,
       th {
@@ -29,6 +30,14 @@
         background-color: #383838;
         color: white;
       }
+      thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: #383838;
+      }
+      tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+      }
     </style>
   </head>
   <body>
@@ -36,40 +45,265 @@
       <caption>
         População das unidades federativas
       </caption>
+
+      <thead>
+        <tr>
+          <th scope="col">Estado</th>
+          <th scope="col">População</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th scope="row">Total de Habitantes</th>
+          <td class="num"><strong>201.147.125</strong></td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+        <tr>
+          <td>São Paulo</td>
+          <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="num">21.159.791</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="num">17.264.943</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="num">14.873.064</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="num">11.433.957</td>
+        </tr>
+      </tbody>
     </table>
-    <thead>
-      <tr>
-        <th scope="col">Estado</th>
-        <th scope="col">População</th>
-      </tr>
-    </thead>
-    <tfoot>
-      <tr>
-        <th scope="row">Total de Habitantes</th>
-        <td class="num"><strong>201.147.125</strong></td>
-      </tr>
-    </tfoot>
-    <tbody>
-      <tr>
-        <td>São Paulo</td>
-        <td class="num">45.919.049</td>
-      </tr>
-      <tr>
-        <td>Minas Gerais</td>
-        <td class="num"></td>
-      </tr>
-      <tr>
-        <td>Rio de Janeiro</td>
-        <td class="num">17.264.943</td>
-      </tr>
-      <tr>
-        <td>Bahia</td>
-        <td class="num">14.873.064</td>
-      </tr>
-      <tr>
-        <td>Paraná</td>
-        <td class="num">11.433.957</td>
-      </tr>
-    </tbody>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+      accusantium voluptatibus? Facilis dolores sed dolore nam corporis ab
+      cupiditate, delectus voluptates autem et beatae doloremque unde in ratione
+      praesentium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quasi voluptas, maiores reprehenderit, exercitationem magni id magnam amet
+      fugiat sed expedita molestias nesciunt ipsa architecto in perferendis fuga
+      iure ut. Doloribus.lorem Lorem ipsum dolor sit, amet consectetur
+      adipisicing elit. Corrupti, iure architecto. Soluta cupiditate, adipisci
+      numquam iure animi, fugit ratione culpa architecto dolorem atque ipsa
+      corporis facilis tenetur! Assumenda, rerum voluptate.
+    </p>
   </body>
 </html>
